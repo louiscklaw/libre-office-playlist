@@ -4,7 +4,7 @@ from pprint import pprint
 
 import yfinance as yf
 
-sys.path.append('/home/logic/.config/libreoffice/4/user/Scripts/python')
+sys.path.append('/home/logic/.config/libreoffice/4/user/Scripts/python/lib')
 sys.dont_write_bytecode = True
 
 from test_func_return import *
