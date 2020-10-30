@@ -15,8 +15,8 @@ def helloworld():
   doc = XSCRIPTCONTEXT.getDocument()
 
   sheets = doc.getSheets() #XSpreadSheets
-  status_sheet = sheets.getByName('status')
-  helloworld_sheet = sheets.getByName('helloworld')
+  status_sheet = sheets.getByName('Sheet1')
+  helloworld_sheet = sheets.getByName('Sheet2')
 
   xCell = status_sheet.getCellByPosition(1, 3)
   temp = self_test()
