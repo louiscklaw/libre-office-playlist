@@ -16,9 +16,8 @@ def hello_yfinance():
   sheets = doc.getSheets() #XSpreadSheets
   sheet = sheets.getByIndex(0)
 
-
   # Introducimos texto
   xCell = sheet.getCellByPosition(1, 3)
-  textCursor = xCell.createTextCursor() # xCell implementa XText
+
   xCell.setValue(json.dumps(fetch_yfinance().info))
   # xCell.insertString(textCursor, json.dumps(msft.info), False)

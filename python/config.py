@@ -1,0 +1,2 @@
+
+HELLOWORLD='helloworld from config'
